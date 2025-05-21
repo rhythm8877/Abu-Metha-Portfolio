@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shri Abu Metha - Youth. Sports. Progress.</title>
+  <meta name="description" content="Official website of Abu Metha, a progressive and dynamic leader from Nagaland focused on youth empowerment, sports leadership, and cultural outreach.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="navbar-logo">Shri Abu Metha</a>
+      <div class="navbar-toggle">
+        <span class="navbar-toggle-icon"></span>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="#home" class="navbar-link active">Home</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#achievements" class="navbar-link">Achievements</a></li>
+        <li><a href="#vision" class="navbar-link">Vision</a></li>
+        <li><a href="#gallery" class="navbar-link">Gallery</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="fade-in">Shri Abu Metha</h1>
+      <p class="fade-in delay-1">Youth. Sports. Progress.</p>
+      <button class="cta-button fade-in delay-2" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+        Connect with Me
+      </button>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About/Biography Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image animate-on-scroll slide-in-left">
+          <img src="images/about.jpg" alt="Abu Metha Portrait">
+        </div>
+        <div class="about-content animate-on-scroll slide-in-right">
+          <div class="card">
+            <h2 class="section-title">About Shri Abu Metha</h2>
+            <p class="about-text">
+              A dynamic leader committed to empowering youth and advancing sports in Nagaland and across India.
+            </p>
+            <ul class="about-list">
+              <li><span class="bullet"></span>Adviser to the Chief Minister of Nagaland</li>
+              <li><span class="bullet"></span>Secretary General, NDPP</li>
+              <li><span class="bullet"></span>Youth & Sports Leader, National Athletics Official</li>
+              <li><span class="bullet"></span>Known for: Sports empowerment, cultural diplomacy, youth development</li>
+            </ul>
+            <div class="stats-grid">
+              <div class="stat animate-on-scroll fade-in-up">
+                <p class="stat-number"><span class="counter" data-target="15">0</span>+</p>
+                <p class="stat-label">Years in Service</p>
+              </div>
+              <div class="stat animate-on-scroll fade-in-up delay-1">
+                <p class="stat-number"><span class="counter" data-target="50">0</span>+</p>
+                <p class="stat-label">Events Led</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <h2 class="section-title text-center animate-on-scroll scale-in">Key Achievements</h2>
+      <div class="achievements-grid">
+        <!-- Achievement cards will be styled by JavaScript -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Vice President, Athletics Federation of India</h3>
+            <p class="achievement-period">2025–29</p>
+            <p class="achievement-description">Elected to lead national athletics development and promote sports excellence across India.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-flag"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Chairman, Investment & Development Authority of Nagaland</h3>
+            <p class="achievement-period">2023–Present</p>
+            <p class="achievement-description">Leading economic development initiatives to boost investment and growth in Nagaland.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Organized 2022 North East Olympic Games</h3>
+            <p class="achievement-period">2022</p>
+            <p class="achievement-description">Successfully hosted the region's largest multi-sport event, bringing together athletes from across Northeast India.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Led cultural exchange at Adelaide Fringe Festival</h3>
+            <p class="achievement-period">2025</p>
+            <p class="achievement-description">Represented Nagaland's rich cultural heritage on an international platform, fostering global connections.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Founder, Nagaland Super League</h3>
+            <p class="achievement-period">2021</p>
+            <p class="achievement-description">Established Nagaland's premier football league to nurture local talent and promote sports culture.</p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-calendar"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Delegate to Paris 2024 Olympics</h3>
+            <p class="achievement-period">2024</p>
+            <p class="achievement-description">Represented India at the Olympic Games, building international sports relationships.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quotes & Vision Section -->
+  <section class="quotes" id="vision">
+    <div class="container">
+      <h2 class="section-title text-center animate-on-scroll rotate-in">Vision & Quotes</h2>
+      <div class="quote-carousel animate-on-scroll scale-in">
+        <div class="quote-container">
+          <!-- Quotes will be dynamically inserted here -->
+        </div>
+        <div class="quote-controls">
+          <button class="quote-control prev-quote">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <div class="quote-dots">
+            <!-- Dots will be dynamically inserted here -->
+          </div>
+          <button class="quote-control next-quote">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title text-center animate-on-scroll fade-in-up">Photo Gallery</h2>
+      <div class="gallery-grid">
+        <!-- Gallery images will be dynamically inserted here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="lightbox-content">
+      <img src="/placeholder.svg" alt="" class="lightbox-image">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Social Media Section -->
+  <section class="social" id="social">
+    <div class="container">
+      <h2 class="section-title text-center animate-on-scroll scale-in">Connect on Social Media</h2>
+      <p class="social-text animate-on-scroll fade-in-up">
+        Follow Shri Abu Metha on social media to stay updated with his latest initiatives, events, and thoughts on youth empowerment and sports development.
+      </p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/methaabu/" class="social-icon-link" target="_blank">
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <span>Instagram</span>
+        </a>
+        <a href="https://x.com/abumetha" class="social-icon-link" target="_blank">
+          <div class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <span>X (Twitter)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title text-center animate-on-scroll fade-in-up">Get in Touch</h2>
+      <p class="contact-text animate-on-scroll fade-in-up delay-1">
+        Want to collaborate or invite Shri Abu Metha? Reach out via social channels or send a message.
+      </p>
+      <a href="mailto:contact@abumetha.com" class="contact-button">
+        <i class="fas fa-envelope"></i> Contact via Email
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Shri Abu Metha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
